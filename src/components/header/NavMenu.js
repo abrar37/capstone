@@ -10,13 +10,13 @@ function NavMenu() {
       active: true,
     },
     {
-      title: "About Us",
-      url: "/about-us",
+      title: "About",
+      url: "/about",
       active: false,
     },
     {
-      title: "Blog",
-      url: "/blog",
+      title: "Blogs",
+      url: "/blogs",
       active: false,
     }
   ];

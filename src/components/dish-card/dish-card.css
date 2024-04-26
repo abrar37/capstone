@@ -1,0 +1,37 @@
+.dish-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 345px;
+  background-color: #edefee;
+}
+.dish-card img {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+.dish-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.dish-title span{
+  color: #EE9972;
+  font-weight: bold;
+}
+.dish-desc {
+  background-color: #edefee;
+  padding: 30px;
+}
+.order-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+  padding-top: 50px;
+  gap: 10px;
+}
+.order-btn img{
+  width: 22px;
+}

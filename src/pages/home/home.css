@@ -1,0 +1,85 @@
+.banner {
+    background: #D9D9D9;
+}
+.banner-wrp {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 80px 0px;
+}
+.banner-wrp .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.banner-wrp .left p{
+    padding-top: 30px;
+    max-width: 70%;
+}
+.banner-wrp .right{
+    width: 50%;
+}
+.banner-wrp .right img{
+    border-radius: 16px;
+}
+.menu-sec{
+    padding: 80px 0;
+}
+.menu-sec .top-bar{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.dish-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.testimonials-sec{
+    padding: 150px;
+}
+.testimonials-sec .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 40px;
+}
+.cta-sec{
+    padding: 80px 0;
+}
+.cta-sec .container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-sec .left{
+    width: 50%;
+}
+.cta-sec .right{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+}
+.cta-img-a{
+    width: 276px;
+    height: 338px;
+    object-fit: cover;
+    margin: 107px -98px 0px 0px;
+}
+.cta-img-b{
+    width: 272px;
+    height: 338px;
+    object-fit: cover;
+}

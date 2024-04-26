@@ -1,5 +1,5 @@
-import React from 'react'
 import './header.css'
+import React from 'react'
 import NavMenu from './NavMenu'
 import logo from '../../assets/Logo.svg'
 import { Link } from "react-router-dom";

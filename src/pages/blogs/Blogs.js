@@ -4,7 +4,7 @@ import CTAImgA from '../../assets/mario-and-adrian-a.jpg'
 import CTAImgB from '../../assets/mario-and-adrian-b.jpg'
 import { Link } from 'react-router-dom'
 
-function About() {
+function Blogs() {
   return (
     <main>
       <div className="banner-sec dark-bg">
@@ -12,7 +12,7 @@ function About() {
           <div className="banner-wrp">
             <div className="left">
               <div className="text">
-                <h1>About</h1>
+                <h1>Blogs</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -53,4 +53,4 @@ function About() {
   );
 }
 
-export default About;
+export default Blogs;
